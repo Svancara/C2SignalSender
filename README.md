@@ -8,3 +8,17 @@ You know your symbols and prices and you want to prepare a list of signals in ad
 
 You want to send signals in appropriate times just clicking on them.
 
+OK.
+
+Download two files: 
+
+Simplest\signals_to_c2.xml 
+Simplest\signals_to_c2.xsl
+
+Store them to your hard disk. For example to the "C:\SignalsToCollective2" folder.
+
+Open your browser (Internet Explorer or Firefox, not Chrome) and enter following text to the address bar:
+
+file://C:/SignalsToCollective2/signals_to_c2.xml
+
+    
