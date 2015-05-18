@@ -85,6 +85,7 @@
                         <xsl:attribute name="target">
                             <xsl:value-of select="@symbol" />
                             <xsl:value-of select="@action" />
+                            <xsl:value-of select="position()"/>                            
                         </xsl:attribute>
 
                         <!-- Link text -->
@@ -130,11 +131,13 @@
                     <xsl:attribute name="name">
                   <xsl:value-of select="@symbol" />
                   <xsl:value-of select="@action" />
+                  <xsl:value-of select="position()"/>                            
                 </xsl:attribute>
                     <xsl:element name="iframe">
                         <xsl:attribute name="name">
                   <xsl:value-of select="@symbol" />
                   <xsl:value-of select="@action" />
+                  <xsl:value-of select="position()"/>                            
                 </xsl:attribute>
                         <xsl:attribute name="width">400</xsl:attribute>
                         <xsl:attribute name="height">60</xsl:attribute>
