@@ -8,5 +8,4 @@ You know your symbols, prices, stop-loss and profit-target limits, parking times
 
 You want to prepare a list of signals in advance (off-line) without any stress and to send signals in appropriate times just clicking on them.
 
-Here is a Wiki describing a simple solution.
-
+[Here is a Wiki describing a simple solution.](https://github.com/Svancara/C2SignalSender/wiki/The-simplest-solution)
