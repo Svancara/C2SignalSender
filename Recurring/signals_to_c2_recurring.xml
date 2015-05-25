@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href='signals_to_c2_recurring.xsl'?>
+<root>
+
+    <session>
+        <!-- Your local date. Use leading zeroes in months and days (the date must have 10 characters) -->
+        <startDate>2015-05-15</startDate>
+
+        <!-- Trades entries. Your local time. Use leading zeroes in hours, minutes and seconds (8 characters altogether) -->
+        <entryTime>19:35:00</entryTime>
+
+        <!-- Trades exits. Your local time. Use leading zeroes in hours, minutes and seconds (8 characters altogether) -->
+        <exitTime>20:45:00</exitTime>
+
+        <!-- How many signals to generate from each signal row -->
+        <repeat>5</repeat>
+    </session>
+
+    <signals>
+
+        <!-- Signals list -->
+
+        <signal symbol="XAUUSD" quant="1" action="BTO" instrument="forex" duration="GTC" />
+        <signal symbol="XAUUSD" quant="1" action="STC" instrument="forex" duration="GTC" />
+
+        <signal symbol="QGCM5" quant="1" action="BTO" instrument="future" duration="DAY" />
+        <signal symbol="QGCM5" quant="1" action="STC" instrument="future" duration="DAY" />
+
+    </signals>
+
+
+    <setup>
+        <!-- Enter your trading system id -->
+        <systemid>111111111</systemid>
+
+        <!-- Enter your Collective2 Data Services password -->
+        <password>YOUR_C2DS_PASSWORD</password>
+
+        <!-- EST time zone shift from UTC in minutes. Change it for DST time. -->
+        <estTimeZoneShift>-360</estTimeZoneShift>
+    </setup>
+</root>
