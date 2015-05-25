@@ -4,16 +4,16 @@
 
     <session>
         <!-- Your local date. Use leading zeroes in months and days (the date must have 10 characters) -->
-        <startDate>2015-05-15</startDate>
+        <startDate>2015-06-01</startDate>
 
         <!-- Trades entries. Your local time. Use leading zeroes in hours, minutes and seconds (8 characters altogether) -->
-        <entryTime>19:35:00</entryTime>
+        <entryTime>15:30:00</entryTime>
 
         <!-- Trades exits. Your local time. Use leading zeroes in hours, minutes and seconds (8 characters altogether) -->
-        <exitTime>20:45:00</exitTime>
+        <exitTime>21:45:00</exitTime>
 
         <!-- How many signals to generate from each signal row -->
-        <repeat>5</repeat>
+        <repeat>3</repeat>
     </session>
 
     <signals>
