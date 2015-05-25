@@ -37,8 +37,6 @@
     <!-- Enter your Collective2 Data Services password -->
     <password>YOUR_C2DS_PASSWORD</password>
     
-    <!-- Do not touch it! -->
-    <c2url>https://www.collective2.com/cgi-perl/signal.mpl?cmd=signal</c2url>
   </setup>
   
 </root>

@@ -5,6 +5,9 @@
 
     <xsl:output method="html" encoding="UTF-8" indent="yes" />
 
+    <xsl:variable name="c2SignalsApi">
+      <xsl:text>https://www.collective2.com/cgi-perl/signal.mpl?cmd=signal</xsl:text>
+    </xsl:variable> 
 
     <xsl:template match="/">
         <xsl:element name="html">
@@ -48,7 +51,7 @@
                     <!-- Signal API link -->
                     <xsl:element name="a">
                         <xsl:attribute name="href">
-                                <xsl:value-of select="/root/setup/c2url" />
+                                <xsl:value-of select="$c2SignalsApi" />
                                 <xsl:text>&amp;systemid=</xsl:text>
                                 <xsl:value-of select="/root/setup/systemid" />
                                 <xsl:text>&amp;pw=</xsl:text>
