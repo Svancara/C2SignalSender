@@ -10,11 +10,23 @@ You want to send signals in appropriate times just clicking on them.
 
 OK.
 
-Download two files from the "Simplest" folder: 
+
+Create a folder "SignalsToCollective2" on your hard disk C. 
+
+We need two files from the "Simplest" folder: 
 - signals_to_c2.xml 
 - signals_to_c2.xsl
 
-Store them to your hard disk. For example to the "C:\SignalsToCollective2" folder.
+You can download all files from this repository using the "Download ZIP" button and extract those files or you can right click folowing links and "Select save as...".
+
+
+
+
+two files from the "Simplest" folder: 
+- signals_to_c2.xml 
+- signals_to_c2.xsl
+
+
 
 Open your browser (Internet Explorer or Firefox, not Chrome) and enter following text to the address bar:
 
