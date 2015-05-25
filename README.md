@@ -10,4 +10,6 @@ You want to prepare a list of signals in advance (off-line) without any stress a
 
 [Here is a Wiki describing a simple solution.](https://github.com/Svancara/C2SignalSender/wiki/The-simplest-solution)
 
+[Here is a "recurring variant".](https://github.com/Svancara/C2SignalSender/wiki/Recurring-signals)
+
 [Collective2 Forum.](https://forums.collective2.com/t/the-simplest-possible-off-line-signal-sender/8063?u=bobsvancara)
