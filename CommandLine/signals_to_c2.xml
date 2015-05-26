@@ -37,7 +37,7 @@
     <password>YOUR_C2DS_PASSWORD</password>
     
     <!-- Path to curl.exe. For example: c:\Program Files (x86)\curl\curl.exe -->
-    <curlpath>c:\Nastroje\curl\CURL.EXE</curlpath>
+    <curlpath>CURL.EXE</curlpath>
     
   </setup>
   
