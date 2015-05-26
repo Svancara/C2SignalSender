@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <signals>
+
+    <!-- Signals list -->
+
+     <!-- BTO Market -->
+    <signal symbol="ABAX" quant="30" action="BTO" instrument="stock" duration="DAY" />
+ 
+    <!-- BTO Limit -->
+    <signal symbol="ABAX" quant="30" action="BTO" limit="5.5" instrument="stock" duration="DAY" />
+
+    <!-- BTO Stop -->
+    <signal symbol="ABAX" quant="30" action="BTO" stop="105.5" instrument="stock" duration="DAY" />
+
+    
+    <!-- Parkuntil -->
+    <signal symbol="ABAX" quant="30" action="STC" limit="5.5" stop="" parkuntildatetime="2015-05-15 13:14:15" instrument="stock" duration="DAY"/>
+
+    <!-- Forex -->
+    <signal symbol="EURUSD" quant="1" action="BTO" limit="1.112345" instrument="forex" duration="GTC"/>
+    
+    <!-- Futures -->
+    <signal symbol="QGCM5" quant="1" action="BTO" limit="1000.50" stop="" parkuntildatetime="2015-05-16 13:14:15" instrument="future" duration="DAY"/>
+    
+    <!--  Wrong symbol -->
+    <signal symbol="XXXZ6" quant="1" action="BTO" limit="1000.50" stop="" parkuntildatetime="2015-05-16 13:14:15" instrument="future" duration="DAY"/>
+    
+  </signals>
+  
+  
+  <setup>
+    <!-- Enter your trading system id -->
+    <systemid>11111111</systemid>
+    
+    <!-- Enter your Collective2 Data Services password -->
+    <password>YOUR_C2DS_PASSWORD</password>
+    
+    <!-- Path to curl.exe. For example: c:\Program Files (x86)\curl\curl.exe -->
+    <curlpath>c:\Nastroje\curl\CURL.EXE</curlpath>
+    
+  </setup>
+  
+</root>
