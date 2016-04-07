@@ -82,7 +82,15 @@
                                   <xsl:text>&amp;parkuntildatetime=</xsl:text>
                                   <xsl:value-of select="translate(translate(translate(@parkuntildatetime,':',''),'-',''),' ','')" />
                                 </xsl:if>
+
+                                <!-- cancelsatrelative -->
+                                <xsl:if test='normalize-space(@cancelsatrelative)'>
+                                  <xsl:text>&amp;cancelsatrelative=</xsl:text>
+                                  <xsl:value-of select="@cancelsatrelative" />
+                                </xsl:if>
                         </xsl:attribute>
+
+                        <!-- Visible part -->
 
                         <!-- Signal API link target -->
                         <xsl:attribute name="target">
@@ -125,6 +133,14 @@
                         <xsl:text> Park until: </xsl:text>
                         <xsl:value-of select="@parkuntildatetime" />
                     </xsl:if>
+                    <!-- Cancels at relative -->
+                    <xsl:if test='normalize-space(@cancelsatrelative)'>
+                        <xsl:element name="br" />
+                        <xsl:text> Cancel after </xsl:text>
+                        <xsl:value-of select="@cancelsatrelative" />
+                        <xsl:text> seconds.</xsl:text>
+                    </xsl:if>
+                    
                 </xsl:element> <!-- span -->
             </xsl:element> <!-- td -->
 

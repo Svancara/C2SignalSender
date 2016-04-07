@@ -16,10 +16,10 @@
 
     
     <!-- Parkuntil -->
-    <signal symbol="ABAX" quant="30" action="STC" limit="5.5" stop="" parkuntildatetime="2015-05-15 13:14:15" instrument="stock" duration="DAY"/>
+    <signal symbol="ABAX" quant="30" action="STC" limit="5.5" stop="" parkuntildatetime="2015-05-15 13:14:15" instrument="stock" duration="DAY" cancelsatrelative="600"/>
 
     <!-- Forex -->
-    <signal symbol="EURUSD" quant="1" action="BTO" limit="1.112345" instrument="forex" duration="GTC"/>
+    <signal symbol="EURUSD" quant="1" action="BTO" limit="1.112345" instrument="forex" duration="GTC" cancelsatrelative="1600"/>
     
     <!-- Futures -->
     <signal symbol="QGCM5" quant="1" action="BTO" limit="1000.50" stop="" parkuntildatetime="2015-05-16 13:14:15" instrument="future" duration="DAY"/>
